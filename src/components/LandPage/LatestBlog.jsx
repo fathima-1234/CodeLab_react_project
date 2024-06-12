@@ -67,7 +67,7 @@ const LatestBlogCarousel = () => {
 
                             </div>
                         ))}
-                        <button className="absolute top-1/2 transform -translate-y-1/2 right-4 bg-gray-200 rounded-full p-2" onClick={handleNext}>
+                        <button className="absolute top-1/2 transform -translate-y-1/2 right-4 bg-blue-500 text-white rounded-full p-2" onClick={handleNext}>
                             &gt;
                         </button>
                     </div>

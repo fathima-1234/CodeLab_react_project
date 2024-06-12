@@ -83,7 +83,7 @@ const Pickwere = () => {
                                 <button
                                     onClick={() => paginate(currentPage + 1)}
                                     disabled={indexOfLastDoctor >= doctors.length}
-                                    className="px-3 py-1 rounded-md bg-white"
+                                    className="px-3 py-1 rounded-md bg-blue-500 text-white"
                                 >
                                     {'>'}
                                 </button>
