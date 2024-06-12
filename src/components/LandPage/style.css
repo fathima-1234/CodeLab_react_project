@@ -1,0 +1,43 @@
+@media (max-width: 640px) {
+    .carousel-container {
+        max-width: 90%;
+
+    }
+
+    .heading-3 {
+        font-size: 1.5rem;
+
+        line-height: 1;
+
+    }
+}
+
+/* For medium screens (md) */
+@media (min-width: 641px) and (max-width: 1024px) {
+    .carousel-container {
+        max-width: 80%;
+
+    }
+
+    .heading-3 {
+        font-size: 2rem;
+
+        line-height: 1.5;
+
+    }
+}
+
+/* For large screens (lg) */
+@media (min-width: 1025px) {
+    .carousel-container {
+        max-width: 1200px;
+
+    }
+
+    .heading-3 {
+        font-size: 2rem;
+
+        line-height: 1.5;
+
+    }
+}

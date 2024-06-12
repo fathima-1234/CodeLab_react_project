@@ -3,10 +3,11 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import hero from '../../assests/images/hero.png'; // Correct path to assets
 import { GoSearch } from "react-icons/go";
+import './style.css';
 const Carousal = () => {
     return (
         <div className="relative bg-gray-100 py-8 px-4 md:px-8 lg:px-16">
-            <div className=" mx-auto">
+            <div className=" max-w-screen-lg mx-auto">
                 <Carousel
                     showThumbs={false}
                     infiniteLoop
@@ -14,12 +15,12 @@ const Carousal = () => {
                     interval={5000}
                     showStatus={false}
                     showArrows={false}
-                    className="w-full" // Set the carousel width to full
+
                 >
                     <div className="relative">
                         <img src={hero} alt="Slide 1" className="w-full h-auto object-cover" />
                         <div className="absolute inset-0 flex flex-col justify-center items-center lg:items-start text-center lg:text-left bg-black bg-opacity-50 text-white p-10">
-                            <h2 className="text-3xl font-bold mb-4">We have served more<br />than 7000+ customers</h2>
+                            <h2 className="heading-3 text-3xl font-bold mb-4">We have served more<br />than 7000+ customers</h2>
                             <p className="text-sm mb-4">
                                 Lorem ipsum dolor sit amet consectetur <br /> adipiscing elit mollis quisque senectus massa <br />lobortis,scelerisque maecenas sagittis faucibus <br />integer
                             </p>
@@ -43,7 +44,7 @@ const Carousal = () => {
                     <div className="relative w-full">
                         <img src={hero} alt="Slide 2" className="w-full h-auto object-cover" />
                         <div className="absolute inset-0 flex flex-col justify-center items-center lg:items-start text-center lg:text-left bg-black bg-opacity-50 text-white p-10">
-                            <h2 className="text-3xl font-bold mb-4">We have served more<br />than 7000+ customers</h2>
+                            <h2 className="heading-3 text-3xl font-bold mb-4">We have served more<br />than 7000+ customers</h2>
                             <p className="text-sm mb-4">
                                 Lorem ipsum dolor sit amet consectetur <br /> adipiscing elit mollis quisque senectus massa <br />lobortis,scelerisque maecenas sagittis faucibus <br />integer
                             </p>
@@ -66,7 +67,7 @@ const Carousal = () => {
                     <div className="relative w-full">
                         <img src={hero} alt="Slide 3" className="w-full h-auto object-cover" />
                         <div className="absolute inset-0 flex flex-col justify-center items-center lg:items-start text-center lg:text-left bg-black bg-opacity-50 text-white p-10">
-                            <h2 className="text-3xl font-bold mb-4">We have served more<br />than 7000+ customers</h2>
+                            <h2 className="heading-3 text-3xl font-bold mb-4">We have served more<br />than 7000+ customers</h2>
                             <p className="text-sm mb-4">
                                 Lorem ipsum dolor sit amet consectetur <br /> adipiscing elit mollis quisque senectus massa<br /> lobortis,scelerisque maecenas sagittis faucibus <br />integer
                             </p>
